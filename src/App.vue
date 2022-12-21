@@ -2,18 +2,18 @@
   <div id="app" class="app">
     <div class="header">
       <nav>
-        <a href="#" class="enlace">
-            <img src="./assets/logo.png" alt="logo" class="logo" width="80">
+        <a class="enlace">
+            <router-link to="/home"><img src="./assets/logo.png" alt="logo" class="logo" width="80"></router-link>
         </a>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
           <img src="./assets/menu.png" alt="menu">
         </label>
         <ul>
-          <li><router-link to="/estudiante">Estudiante</router-link></li>
-          <li><router-link to="/resultado">Resultado</router-link></li>
-          <li><router-link to="/prueba">Prueba</router-link></li>
-          <li><router-link to="/pregunta">Pregunta</router-link></li>
+          <li><a><router-link to="/estudiante">Estudiante</router-link></a></li>
+          <li><a><router-link to="/resultado">Resultado</router-link></a></li>
+          <li><a><router-link to="/prueba">Prueba</router-link></a></li>
+          <li><a><router-link to="/pregunta">Pregunta</router-link></a></li>
         </ul>
       </nav>
     </div>
@@ -115,6 +115,7 @@
   .main-component{
     height: 78vh;
     background: #FDFEFE;
+    min-height: 100vh;
   }
 
   .footer{
