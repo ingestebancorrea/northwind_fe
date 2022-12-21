@@ -7,8 +7,8 @@ import Home from './views/Home.vue'
 const routes = [
   {
     path: '/',
-    name: 'root',
-    component: App
+    name: 'home',
+    component: Home
   },
   {
     path: '/estudiante',
@@ -19,11 +19,6 @@ const routes = [
     path: '/pregunta',
     name: 'pregunta',
     component: Pregunta
-  },
-  {
-    path: '/home',
-    name: 'home',
-    component: Home
   }
 ]
 

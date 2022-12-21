@@ -3,7 +3,7 @@
     <div class="header">
       <nav>
         <a class="enlace">
-            <router-link to="/home"><img src="./assets/logo.png" alt="logo" class="logo" width="80"></router-link>
+            <router-link to="/"><img src="./assets/logo.png" alt="logo" class="logo" width="80"></router-link>
         </a>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -115,7 +115,7 @@
   .main-component{
     height: 78vh;
     background: #FDFEFE;
-    min-height: 100vh;
+    min-height: 130vh;
   }
 
   .footer{
